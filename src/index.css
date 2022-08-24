@@ -1,13 +1,45 @@
+#root,
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  /* font-size: 30px; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  background-color: whitesmoke;
+  /* background-image: url('https://media.defense.gov/2021/Nov/15/2002893358/-1/-1/0/211115-D-BD104-002.JPG'); */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* background: hsla(284, 80%, 10%, 1);
+
+background: linear-gradient(90deg, hsla(284, 80%, 10%, 1) 0%, hsla(290, 25%, 76%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(284, 80%, 10%, 1) 0%, hsla(290, 25%, 76%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(284, 80%, 10%, 1) 0%, hsla(290, 25%, 76%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#22052D", endColorstr="#CCB3D1", GradientType=1 ); */
+
+/* background: hsla(230, 58%, 27%, 1);
+
+background: linear-gradient(45deg, hsla(230, 58%, 27%, 1) 0%, hsla(228, 90%, 8%, 1) 1%, hsla(214, 90%, 28%, 1) 100%);
+
+background: -moz-linear-gradient(45deg, hsla(230, 58%, 27%, 1) 0%, hsla(228, 90%, 8%, 1) 1%, hsla(214, 90%, 28%, 1) 100%);
+
+background: -webkit-linear-gradient(45deg, hsla(230, 58%, 27%, 1) 0%, hsla(228, 90%, 8%, 1) 1%, hsla(214, 90%, 28%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1D2A6E", endColorstr="#020925", GradientType=1 ); */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 70px;
 }
