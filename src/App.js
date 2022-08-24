@@ -52,7 +52,7 @@ const App = () => {
             <img
               src="https://media.defense.gov/2021/Nov/15/2002893358/-1/-1/0/211115-D-BD104-002.JPG"
               className={classes.alanLogo}
-              alt="image"
+              alt="brain-logo"
             />
             <h1>Voice Reader News App</h1>
           </div>
